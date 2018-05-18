@@ -11,7 +11,6 @@
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.drewsullivandma.notekeeper_pluralsight_android.NoteActivity"
     tools:showIn="@layout/activity_note" >
 
     <Spinner
@@ -52,4 +51,4 @@
         app:layout_constraintStart_toStartOf="@+id/text_note_title"
         app:layout_constraintTop_toBottomOf="@+id/text_note_title" />
 
-</>
+</android.support.constraint.ConstraintLayout>
